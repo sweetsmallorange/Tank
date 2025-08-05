@@ -1,0 +1,14 @@
+# Configured according to the corresponding selected yml file, i.e., [xxxxx]Selected-yyyyy.yml
+# US 448maurer_extended
+#train_start: "2001-10-01"
+#train_end: "2008-09-30"
+#val_start: "1999-10-01"
+#val_end: "2001-09-30"
+#test_start: "1989-10-01"
+#test_end: "1999-09-30"
+train_start: "2001-10-01"
+train_end: "2002-09-30"
+val_start: "1999-10-01"
+val_end: "2001-09-30"
+test_start: "1989-10-01"
+test_end: "1999-09-30"

@@ -1,0 +1,6 @@
+# This file is configured manually
+tag: CAMELS-YR-manual
+start_date: '2012-01-01'
+end_date: '2022-12-31'
+basins:
+  - '涝峪口'

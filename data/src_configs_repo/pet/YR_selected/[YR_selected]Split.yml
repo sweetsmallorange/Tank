@@ -1,0 +1,8 @@
+# Configured according to the corresponding selected yml file, i.e., [xxxxx]Selected-yyyyy.yml
+# US 448maurer_extended
+train_start: "2001-08-10"
+train_end: "2014-08-09"
+val_start: "2014-08-10"
+val_end: "2017-08-09"
+test_start: "2017-08-10"
+test_end: "2020-07-30"
