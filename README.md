@@ -28,8 +28,9 @@ To start the training process, run the following script:
 
 **Important Configuration Notes:**
 - **Model Selection**: Make sure to set the `model` parameter to `'SeriesTank'`.
-- **Dataset Path**: Set the `camels_root` parameter in the script to the directory you prepared in **Step 0** (e.g., `./data/camels/`).
+- **Dataset Path**: Set the `camels_root` parameter in the script to the directory you prepared in **Dataset Preparation** (e.g., `./data/camels/`).
 - **GPU Selection**: Adjust the GPU settings in the script according to your machine's available hardware.
+- **Temporal Sequence Length**: Modify the `past_len` and `pred_len` parameters to specify how many days of historical data are used for input and how many days into the future the model should predict, respectively. For example, setting `past_len=365` and `pred_len=30` means using the past 365 days to predict the next 1 days.
 
 ### 2. Output Directory
 
