@@ -2,7 +2,7 @@
 
 This guide provides instructions on how to run the training and testing pipelines for the project.
 
-### 0. Dataset Preparation
+### Dataset Preparation
 
 Before starting training, you need to download and set up the required datasets.
 
