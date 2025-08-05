@@ -31,8 +31,6 @@ To start the training process, run the following script:
 - **Dataset Path**: Set the `camels_root` parameter in the script to the directory you prepared in **Step 0** (e.g., `./data/camels/`).
 - **GPU Selection**: Adjust the GPU settings in the script according to your machine's available hardware.
 
----
-
 ### 2. Output Directory
 
 After launching the training job, a new folder named with your specified `model_id` will be automatically created under the `runs_paper/` directory. All training logs and checkpoints will be saved in this folder.
