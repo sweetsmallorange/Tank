@@ -37,17 +37,6 @@ To start the training process, run the following script:
 
 After launching the training job, a new folder named with your specified `model_id` will be automatically created under the `runs_paper/` directory. All training logs and checkpoints will be saved in this folder.
 
-Example:
-```
-runs_paper/
-└── model_id/
-    ├── checkpoints/
-    ├── logs/
-    └── config.json
-```
-
----
-
 ### 3. Testing
 
 Once training is complete, run the testing script:
@@ -60,22 +49,10 @@ Once training is complete, run the testing script:
 - **Run Directory**: Update the `run_dir` parameter in the script to point to your `model_id` folder (e.g., `runs_paper/model_id`).
 - **Dataset Path**: Ensure that `camels_root` is correctly set to the same dataset directory used during training.
 
----
-
 ### 4. Test Results
 
 After testing completes, the results will be generated and saved in the `test/` subdirectory within your `model_id` folder.
 
-Example:
-```
-runs_paper/model_id/test/
-├── predictions.npy
-├── metrics.csv
-└── evaluation_log.txt
-```
-
 You can now analyze the performance of your model using these output files.
 
----
 
-✅ **You're all set!** Follow these steps in order to successfully train and evaluate your model.
